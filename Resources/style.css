@@ -6,7 +6,7 @@ header {
     padding: 0.02px;
     background-color: rgb(130, 10, 10);
     text-align: center;
-    color: rgb(240, 240, 240);
+    color: rgb(160, 170, 25);
     font-weight: 900;
     font-size: 2em;
 }
@@ -18,11 +18,11 @@ footer {
 }
 
 a:link {
-    color: rgb(240, 250, 40);
+    color: rgb(160, 170, 25);
 }
 
 a:visited {
-    color: rgb(170, 180, 15);
+    color: rgb(125, 130, 10);
 }
 
 td {
