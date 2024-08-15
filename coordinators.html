@@ -16,7 +16,8 @@
                     </td>
                     <td width="34%">
                         <h1>Chess Club</h1>
-                    </td><td width="33%">
+                    </td>
+                    <td width="33%">
                         <img src="./Resources/white_king.png" height="100px" alt="An icon of a white king"
                         class="icon">
                     </td>
@@ -26,16 +27,36 @@
         <table width="100%">
             <tr>
                 <td width="85%"><br>
-                    <h2></h2>
-                    <div class="info">
-                        
-                    </div><br><br>
+                        The following are introductions from the two coordinators of chess club.<br><br>
+                        <div class="info">
+                            <table width="100%">
+                                <tr>
+                                    <td width="45%">
+                                        <h4>Campbell Miles</h4>
+                                        Hey there, the name’s Campbell. I’m a chess addict, who also plays way too 
+                                        much football, and who loves PE. I am the highest rated player in the 
+                                        school, but only by virtue of my gambits and high-stakes openings.
+                                    </td><td width="10%"></td>
+                                    <td width="45%">
+                                        <h4>James O'Callaghan</h4>
+                                        Hello! I’m James, a bit of a chess fanatic, who also loves reading, writing, 
+                                        and learning. I am the second highest rated player in the school, though I 
+                                        certainly don’t live up to my rating a good deal of the time. 
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    <br><br>
                     <section>
                         <!-- Images used to open the lightbox -->
                         <div class="row">
                             <div class="column">
                                 <img src="./Resources/.jpg" height="150px" alt=""
                                     onclick="openModal();currentSlide(1)" class="hover-shadow">
+                            </div>
+                            <div class="column">
+                                <img src="./Resources/.jpg" height="150px" alt=""
+                                    onclick="openModal();currentSlide(2)" class="hover-shadow">
                             </div>
                         </div>
 
@@ -45,8 +66,19 @@
                             <div class="modal-content">
                                 <div class="slideshow-container">
                                     <div class="mySlides">
+                                        <div class="numbertext">1 / 2</div>
                                         <img src="./Resources/.jpg" style="height:450px">
                                     </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">2 / 2</div>
+                                        <img src="./Resources/.jpg" style="height:450px">
+                                    </div>
+
+                                    <!-- Next/previous controls -->
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
                                 </div>
                             </div>
                         </div>
