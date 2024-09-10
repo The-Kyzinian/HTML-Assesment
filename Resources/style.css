@@ -217,3 +217,11 @@ img.hover-shadow {
 .icon {
     border: 20px solid rgb(130, 10, 10);
 }
+
+.darker {
+    border: 10px double rgb(130, 10, 10);
+    background-color: rgb(230, 230, 230);
+    font-size: x-large;
+    text-decoration-line: none;
+    padding: 10px;
+}
